@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+
+<h4> Hello! Everyone</h4>
+<a href="https://www.google.com/"> Google </a>
+<br>
+<img src="https://media.npr.org/assets/img/2021/03/22/copy-of-lk_books_harlan-108_wide-5dfb409ea6fa220409e8498f545214cdd3575791.jpg?s=1400" alt="notbook" height="200"
+><br />
+ <b> Sachin Shakya </b>
+ <br />
+ <hr>
+<header>
+        <h1> My Portfolio</h1>>
+    </header>
+            <main>
+<section>education : Graution | School</section>
+<section>Experience : Game Developer | Azure | Devops</section>
+<article>my story : I love open source So I learn Cloud()</article>
+    <a href="https://www.openstack.org" target="_main"> <img 
+        src="https://th.bing.com/th/id/R.959caa151ef1bdeb0652b20d1bb36534?rik=7vQousR5lZch0Q&riu=http%3a%2f%2fwww.datacenterknowledge.com%2fsites%2fdatacenterknowledge.com%2ffiles%2fwp-content%2fuploads%2f2011%2f11%2fopenstack-cloud.jpg&ehk=dzqIn3GJBsqSISXLaYuXAIISUfKapFPAYl7oVLw5wWo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" 
+    alt="openstack"
+    height="200"
+></a>
+            </main>
+            <hr>
+            <h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Full Name:</label><br>
+  <input type="text" id="fname" name="fname" value="sachin shakya"><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname" value="SachinShakya@rightpoint.com"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<hr>
+
+            <footer>
+                <h2>contact me at Sachinshakya@rightpoint.com</h2>
+            </footer>
+
+
+
+            <p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Location Info.</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+</body>
+
+</html>
